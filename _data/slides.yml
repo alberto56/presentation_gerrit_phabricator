@@ -16,83 +16,171 @@
 #
 #############
 
-- id: community
-  title: Community
+- id: history
+  title: History
   descg: |
-    Test for gerrit
+    Created by Google for the Android Open Source project
   descp: |
-    Test for phabricator
+    Created by Facebook for internal development.
+
+#############
+
+- id: tech
+  title: Technology
+  descg: |
+    Java
+  descp: |
+    LAMP
 
 #############
 
 - id: community
   title: Community
   descg: |
-    Test for gerrit
+     * Highly active ([https://www.openhub.net/p/gerrit](https://www.openhub.net/p/gerrit))
+     * Open source Apache v2
+     * 213 commits last month by 18 contributors.
+     * 3540 (-18%) commits last year by 66 (-20%) contributors.
+     * Backers and users:
+       * Google
+       * Android
+       * eBay
+       * LibreOffice
+
   descp: |
-    Test for phabricator
+     * Highly active ([https://www.openhub.net/p/phabricator](https://www.openhub.net/p/phabricator))
+     * Open source Apache v2
+     * 114 commits last month by 9 contributors.
+     * 2427 commits (-16%) last year by 74 (-6%) contributors.
+     * Backers and users:
+       * Dropbox
+       * Quora
+       * Facebook
+       * Wikipedia
 
 #############
 
-- id: interface
-  title: Interface
+- id: login
+  title: Login and access
   descg: |
-    Test for gerrit
+     * Uses OpenID by default.
+     * LDAP integration.
   descp: |
-    Test for phabricator
+     * Limited to emails at a certain domain.
+     * LDAP integration.
+
+#############
+
+- id: jira
+  title: Integration with Jira
+  descg: |
+     * [Free Jira plugin](https://marketplace.atlassian.com/plugins/com.meetme.plugins.jira.gerrit-plugin) with 275 downloads and 9 good reviews.
+     * I did not try it
+  descp: |
+     * Cross-login.
+     * A "JIRA Issues" field will appear in Differential, in the web UI and CLI.
+     * JIRA issues linked to a Differential revision will be updated (with comments) when the revision is updated.
+     * I did not try it
+     * ["Very low priority"](https://secure.phabricator.com/T5422)
 
 #############
 
 - id: philosophy
   title: Philosophy and workflow
   descg: |
-    Test for gerrit
+     * Gerrit hosts the git repos.
+     * One commit == One review
+     * Force a clean commit history (squashing)
+     * Every commit _has to_ go through Gerrit
+     * Fine grained access control (who can push, branches...)
   descp: |
-    Test for phabricator
+     * Phab is a user of the git repo
+     * Non-invasive (developer decides what is reviewed)
 
 #############
 
 - id: target
   title: Target audience
   descg: |
-    Test for gerrit
+     * Wide-scale open source projects such as the Android project
   descp: |
-    Test for phabricator
+     * Contained development teams
 
 #############
 
 - id: eases
   title: Ease of installation (server)
   descg: |
-    Test for gerrit
+     * About 30 minutes to set up an insecure server.
+     * Trial and error took me about 2 days.
+     * Lots of pitfalls
   descp: |
-    Test for phabricator
+     * About 30 minutes to set up an insecure server.
+     * Good online documentation.
+     * Straightforward
 
 #############
 
 - id: eased
   title: Invasiveness for user
   descg: |
-    Test for gerrit
+     * Must change origin to Gerrit
+     * Feature branches OK
+     * Must squash commits before requesting review
+     * Requires `git-review` software (easy to install on a mac)
   descp: |
-    Test for phabricator
+     * Same workflow
+     * Feature branches OK
+     * Optional step to review to a diff between two commits
+     * Requires `arc` software (easy to install on a mac)
 
 #############
 
 - id: onlinedoc
   title: Online documentation
   descg: |
-    Test for gerrit
+     * Hard to come by
+     * Confusing
   descp: |
-    Test for phabricator
+     * Plentiful
+     * Straightforward
 
 #############
 
 - id: issues
   title: Issue queue
   descg: |
-    Test for gerrit
+     * [Github issue queue](https://github.com/phacility/phabricator/issues)
+     * Active (last activity one day ago when I checked)
+     * Active [Google Group](https://groups.google.com/forum/#!forum/repo-discuss) dedicated to Gerrit
   descp: |
-    Test for phabricator
+     * [Google issue queue](https://code.google.com/p/gerrit/issues/list)
+     * Active (last activity 9 hours ago when I checked)
 
 #############
+
+- id: interface
+  title: User interface
+  descg: |
+    * Straightforward
+    * Comment on diff lines
+    * Changes to different files on different screens
+    * Comment on diff lines
+  descp: |
+    * Straightforward
+    * Comment on diff lines
+    * Comment on an entire commit
+    * All changes on one screen
+
+#############
+
+- id: moreinfo
+  title: More info
+  descg: |
+    * [Installing](http://dcycleproject.org/blog/82/setting-gerrit-centos-evaluation)
+    * [Repo setup](http://dcycleproject.org/blog/84/setting-gerrit-git-repo)
+    * [Your first review](http://dcycleproject.org/blog/85/using-gerrit-review-change-your-code)
+  descp: |
+    * [Installing](http://dcycleproject.org/blog/79/installing-evaluation-version-phabricator)
+    * [Repo setup](http://dcycleproject.org/blog/80/setting-phabricator-track-git-repo)
+    * [Your first review](http://dcycleproject.org/blog/81/setting-phabricator-review-code)
