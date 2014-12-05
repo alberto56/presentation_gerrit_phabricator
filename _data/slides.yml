@@ -1,0 +1,98 @@
+#############
+#
+# See dcycleproject.org
+#
+# Authored by Albert Albala (@alberto56)
+#
+# This slideshow uses
+#
+#  * [Deck.js](http://imakewebthings.com/deck.js/) for the slideshow
+#  * GitHub and GitHub Pages for hosting
+#  * [Jekyll](http://jekyllrb.com) for converting yaml into HTML for deck.js
+#
+# See https://github.com/alberto56/presentation_tests_automatises
+# See http://alberto56.github.io/presentation_tests_automatises/
+# See http://agilemontreal.ca/agile-tour-2014/programme-2014/plage-b/#Albala
+#
+#############
+
+- id: community
+  title: Community
+  descg: |
+    Test for gerrit
+  descp: |
+    Test for phabricator
+
+#############
+
+- id: community
+  title: Community
+  descg: |
+    Test for gerrit
+  descp: |
+    Test for phabricator
+
+#############
+
+- id: interface
+  title: Interface
+  descg: |
+    Test for gerrit
+  descp: |
+    Test for phabricator
+
+#############
+
+- id: philosophy
+  title: Philosophy and workflow
+  descg: |
+    Test for gerrit
+  descp: |
+    Test for phabricator
+
+#############
+
+- id: target
+  title: Target audience
+  descg: |
+    Test for gerrit
+  descp: |
+    Test for phabricator
+
+#############
+
+- id: eases
+  title: Ease of installation (server)
+  descg: |
+    Test for gerrit
+  descp: |
+    Test for phabricator
+
+#############
+
+- id: eased
+  title: Invasiveness for user
+  descg: |
+    Test for gerrit
+  descp: |
+    Test for phabricator
+
+#############
+
+- id: onlinedoc
+  title: Online documentation
+  descg: |
+    Test for gerrit
+  descp: |
+    Test for phabricator
+
+#############
+
+- id: issues
+  title: Issue queue
+  descg: |
+    Test for gerrit
+  descp: |
+    Test for phabricator
+
+#############
