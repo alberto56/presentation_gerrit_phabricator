@@ -3,7 +3,7 @@ backend:
   repo: alberto56/presentation_gerrit_phabricator
   branch: gh-pages
   base_url: https://suresh-issue-82.dcycleproject.org
-  auth_endpoint: /auth/github/repo/6946e3d57c6e2b059bec666b
+  auth_endpoint: /auth/github/repo/694f513e18f56cc3582664e9
 media_folder: static/uploads
 public_folder: /uploads
 collections:
